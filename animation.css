@@ -1,0 +1,25 @@
+div{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: linear-gradient(red,purple);
+    transform: rotate(180deg);
+    animation-name: ball;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    margin: auto;
+    animation-direction: alternate;
+    border: solid;
+}
+@keyframes ball{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(80vh) rotate(360deg);
+    }
+    100%{
+        transform: translateX(-30vh);
+    }
+}

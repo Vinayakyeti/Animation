@@ -1,0 +1,52 @@
+.a{
+    background-color:rgb(104, 180, 201);
+    height: 800px;
+}
+.b{
+    background-color: rgb(65, 61, 61);
+    height: 100px;
+    position: relative;
+    top:300px;
+}
+.c{
+    height: 60px;
+    width: 100px;
+    background-color: orangered;
+    position: relative;
+    top: 220px;
+    border-radius: 10%;
+    animation-name: ball;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    margin: 0;
+    animation-direction: normal;
+}
+.f{
+    display: flex;
+    justify-content: space-between;
+    align-content: end;
+    position: relative;
+    top: 45px;
+}
+#one{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 100%;
+  
+}
+#two{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 100%;
+}
+@keyframes ball{
+    0%{
+        transform: translatex(-50vh);
+    }
+    100%{
+        transform: translatex(800vh);
+    }
+}

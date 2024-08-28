@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.a{
+    height: 150px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: down;
+    animation-duration: 5s;
+}
+@keyframes down{
+    0%{
+        transform: translateY(-100%);
+    }
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: beige;
+}
+.b{
+    background-color: rgb(45, 42, 42);
+    height: 70px;
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: space-evenly;
+    align-items: center;
+    color: beige;
+}
+.c{
+    display: flex;
+    justify-content: space-between;
+
+}
+#x{
+    width: 200px;
+}
+footer{
+    height: 80px;
+    background-color: rgb(49, 46, 46);
+    color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
